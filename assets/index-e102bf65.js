@@ -1,0 +1,1 @@
+import{_ as e}from"./_plugin-vue_export-helper-c27b6911.js";import{k as n,p as r}from"./pinia-e0a49abc.js";const c={};function o(t,s){return n(),r("div",null,"news")}const f=e(c,[["render",o]]);export{f as default};

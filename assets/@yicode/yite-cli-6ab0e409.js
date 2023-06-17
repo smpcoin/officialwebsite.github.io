@@ -1,0 +1,1 @@
+function u(n){return n.replace(/[.*+?^$|[\](){}\\-]/g,"\\$&")}function o(n,e){if(e===void 0&&(e=decodeURIComponent),typeof n!="string"||!n)return null;var r=new RegExp("(?:^|; )".concat(u(n),"(?:=([^;]*))?(?:;|$)")),t=r.exec(document.cookie);return t===null?null:typeof e=="function"?e(t[1]):t[1]}export{o as g};
